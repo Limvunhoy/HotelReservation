@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:id="@+id/mnu_booking" android:icon="@drawable/ic_booking" android:title="My Booking"/>
+        <item android:id="@+id/mnu_payment" android:icon="@drawable/ic_paymentoption" android:title="Payment Option"/>
+        <item android:id="@+id/mnu_event" android:icon="@drawable/ic_event" android:title="Events"/>
+        <item android:id="@+id/mnu_ivite" android:icon="@drawable/ic_invite" android:title="Invite Friends"/>
+    </group>
+
+    <group android:id="@+id/group2">
+        <item android:id="@+id/mnu_contact" android:icon="@drawable/ic_contact" android:title="Contact"/>
+        <item android:id="@+id/mnu_chat" android:icon="@drawable/ic_invite" android:title="Chat with Us"/>
+    </group>
+</menu>

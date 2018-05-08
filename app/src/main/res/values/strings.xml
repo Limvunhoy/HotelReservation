@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hotel Reservation</string>
+    <string name="username">UserName :</string>
+    <string name="password">Password :</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

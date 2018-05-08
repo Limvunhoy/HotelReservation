@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_royal_blue">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#041d40"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/btt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register with Email"
+            android:textColor="#fff"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:textSize="23sp"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:src="@drawable/img_hotel999" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create new account"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22sp"/>
+        <EditText
+            android:id="@+id/txt_lastname"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_below="@+id/txt_firstname"/>
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_below="@+id/txt_lastname"/>
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_below="@+id/txt_email"/>
+
+        <EditText
+            android:id="@+id/txt_phone"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_below="@+id/txt_password"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/gradient_royal"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_below="@id/txt_phone"
+            android:layout_centerInParent="true"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
